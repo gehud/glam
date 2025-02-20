@@ -67,6 +67,7 @@ wasm-bindgen-test = "0.3"
 
 [lib]
 bench = false
+crate-type = ["rlib", "dylib"]
 
 [[bench]]
 name = "mat2"
